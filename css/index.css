@@ -209,12 +209,18 @@ font-family: 'Open Sans', sans-serif; */
 
 .header-img-box {
     text-align: center;
-    padding-top: 37px;
+    height: 343px;
+    background-image: url(../img/header-img-laptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 63px;
 }
 
 .header-img {
     position: relative;
-    top: 63px;
+    top: 17px;
+    left: 1px;
 }
 
 /* HEADER - Ellipse */
@@ -335,4 +341,22 @@ font-family: 'Open Sans', sans-serif; */
 
 .services-item-link:hover {
     color: #ffbb42;
+}
+
+/* ABOUT */
+.about {
+    margin-top: 75px;
+}
+
+.about-img-box {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 50%;
+}
+
+.about-text-box {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 50%;
+    background-color: #ffc155;
 }
