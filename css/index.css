@@ -243,7 +243,6 @@ font-family: 'Open Sans', sans-serif; */
     padding-top: 100px;
 }
 /* MAIN - Services */
-/* MAIN - Services - */
 .services-title-box {
     text-align: center;
 }
@@ -285,11 +284,11 @@ font-family: 'Open Sans', sans-serif; */
 
 .services-item-text-box {
     padding-left: 80px;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 /* adding icons to items */
-.services-item-text-box-font {
+/* .services-item-text-box-font {
     background-image: url(../img/services-icon-font.png);
     background-size: 50px;
 }
@@ -314,7 +313,7 @@ font-family: 'Open Sans', sans-serif; */
 .services-item-text-box-flat {
     background-image: url(../img/services-icon-flat.png);
     background-position: 10px 0;
-}
+} */
 
 .services-item-title {
     font-family: Lato;
@@ -346,17 +345,69 @@ font-family: 'Open Sans', sans-serif; */
 /* ABOUT */
 .about {
     margin-top: 75px;
+    background-color: #ffc155;
 }
 
+/* ABOUT - Image Box */
 .about-img-box {
     display: inline-block;
     vertical-align: top;
-    max-width: 50%;
+    width: 50%;
+    min-height: 623px;
+    background-image: url(../img/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ABOUT - Description Box */
+.about-desc-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
 }
 
 .about-text-box {
-    display: inline-block;
-    vertical-align: top;
-    max-width: 50%;
-    background-color: #ffc155;
+    width: 505px;
+    margin-left: 80px;
+    margin-top: 164px;
+}
+
+.about-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: -0.75px;
+}
+
+.about-text {
+    margin-top: 28px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.about-link-box {
+    margin-top: 51px;
+}
+
+.about-link {
+    padding: 18px 32px;
+    border: 1px solid #e7ad48;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.about-link:hover {
+    background-color: #ffffff;
+    color: #e7ad48;
 }
