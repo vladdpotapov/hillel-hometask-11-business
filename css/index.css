@@ -13,3 +13,221 @@
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+
+/* GENERAL */
+.content-frame {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* HEADER */
+/* HEADER - Topbar */
+.header-topbar {
+    padding: 23px 0;
+}
+/* HEADER - Topbar - Logo */
+.topbar-logo-box {
+    float: left;
+}
+
+/* HEADER - Topbar - Menu */
+.topbar-menu-box {
+    float: right;
+    margin-top: 20px;
+}
+
+.topbar-menu-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topbar-menu-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #868686;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 21px;
+}
+
+.topbar-menu-link:hover {
+    color: #ffffff;
+    background-color: #ffbb42;
+}
+
+.topbar-menu-item:hover .topbar-menu-link {
+    color: #ffffff;
+    background-color: #ffbb42;
+}
+
+/* HEADER - Topbar - Menu - Dropdown */
+.dropdown-item {
+    position: relative;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    top: 28px;
+    min-width: 250px;
+    padding: 21px;
+    background-color: #ffbb42;
+    background-image: linear-gradient(#ffbb42, #af802d);
+}
+
+.dropdown-link {
+    display: block;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.dropdown-link:hover {
+    color: #ffffff;
+}
+
+.dropdown-item:hover .dropdown-box {
+    display: block;
+}
+
+/* HEADER - FORM */
+.header-form {
+    background-color: #709dca;
+    padding-top: 110px;
+}
+
+/* HEADER - Description Box */
+.header-form-text-box {
+    width: 725px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-form-title {
+    font-family: "Gotham Black";
+    font-weight: 400;
+    font-size: 35px; 
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header-form-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* HEADER - Form */
+.form {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.form-input {
+    width: 224px;
+    height: 41px;
+    padding-left: 41px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px; 
+    color: #a9a9a9;  
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-input:hover {
+    background-color: #ffe1ad;
+}
+
+.form-input:focus {
+    background-color: #ffbb42;
+    color: black;
+}
+
+.form-input-name {
+    background-image: url(../img/input-icon-01.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 15px 15px;
+}
+
+.form-input-email {
+    background-image: url(../img/input-icon-02.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 15px 16px;
+}
+
+.form-input-number {
+    background-image: url(../img/input-icon-03.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 15px 15px;
+}
+
+.form-button {
+    width: 211px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffbb42;
+    transition: all 0.3s ease;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-button:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+/* HEADER - Image */
+.header-image {
+    background-color: #709dca;
+}
+
+.header-img-box {
+    text-align: center;
+    padding-top: 37px;
+}
+
+.header-img {
+    position: relative;
+    top: 63px;
+}
+
+/* Header - Ellipse */
+.header-ellipse-box {
+    margin-top: 87px;
+    text-align: center;
+}
+
+.header-ellipse-link {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.header-ellipse-link:last-child {
+    margin-right: 0;
+}
