@@ -217,7 +217,7 @@ font-family: 'Open Sans', sans-serif; */
     top: 63px;
 }
 
-/* Header - Ellipse */
+/* HEADER - Ellipse */
 .header-ellipse-box {
     margin-top: 87px;
     text-align: center;
@@ -230,4 +230,109 @@ font-family: 'Open Sans', sans-serif; */
 
 .header-ellipse-link:last-child {
     margin-right: 0;
+}
+
+/* MAIN */
+.main {
+    padding-top: 100px;
+}
+/* MAIN - Services */
+/* MAIN - Services - */
+.services-title-box {
+    text-align: center;
+}
+
+.services-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.services-text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #394b50;
+    margin-top: 10px;
+}
+
+/* MAIN - Services - Items */
+.services-item-box {
+    margin-top: 95px;
+}
+
+.services-item {
+    width: 550px;
+    margin-bottom: 75px;
+}
+
+.services-item-left {
+    float: left;
+}
+
+.services-item-right {
+    float: right;
+}
+
+.services-item-text-box {
+    padding-left: 80px;
+    background-repeat: no-repeat;
+}
+
+/* adding icons to items */
+.services-item-text-box-font {
+    background-image: url(../img/services-icon-font.png);
+    background-size: 50px;
+}
+
+.services-item-text-box-responsive {
+    background-image: url(../img/services-icon-responsive.png);
+}
+
+.services-item-text-box-contact {
+    background-image: url(../img/services-icon-contact.png);
+    background-size: 58px 50px;
+}
+
+.services-item-text-box-retina {
+    background-image: url(../img/services-icon-retina.png);
+}
+
+.services-item-text-box-friendly {
+    background-image: url(../img/services-icon-friendly.png);
+}
+
+.services-item-text-box-flat {
+    background-image: url(../img/services-icon-flat.png);
+    background-position: 10px 0;
+}
+
+.services-item-title {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.services-item-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7b7b7b;
+    margin-top: 21px;
+}
+
+.services-item-link {
+    text-decoration: none;
+    color: #394b50;
+    transition: all 0.3s ease; 
+}
+
+.services-item-link:hover {
+    color: #ffbb42;
 }
