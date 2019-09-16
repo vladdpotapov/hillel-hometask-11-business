@@ -552,7 +552,7 @@
 .price-item-link:hover {
     color: #ffbb42;
     background-color: #ffffff;
-    border: 0.5px solid #ffbb42;
+    border: 0.3px solid #ffbb42;
 }
 
 /* HOW IT WORKS */
@@ -665,4 +665,119 @@
     color: #ffbb42;
     background-color: #ffffff;
     border: 1px solid #ffbb42;
+}
+
+/* HAPPY CLIENTS */
+.clients {
+    background-color: #ffc155;
+    padding: 141px 0 160px 0;
+}
+
+/* Description */
+.clients-title-box {
+    text-align: center;
+}
+
+.clients-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: -0.75px;
+}
+
+.clients-text {
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Items */
+.clients-item-box {
+    text-align: center;
+    font-size: 0;
+    margin-top: 58px;
+}
+
+.clients-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 560px;
+    min-height: 241px;
+    background-color: #ffffff;
+    margin: 0 36px 20px 0;
+}
+
+.clients-item--nomargin {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+/* Items Content */
+.clients-item-picture-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 121px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.clients-item-text-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.clients-item-text:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/quotes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 20px;
+    top: 13px;
+}
+
+.clients-item-text:after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/quotes-02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 200px;
+    bottom: 13px;
+}
+
+.clients-item-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7b7b7b;
+}
+
+.clients-item-author {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    color: #99a9ae;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.clients-item-author--name {
+    color: #f6772c;
 }
