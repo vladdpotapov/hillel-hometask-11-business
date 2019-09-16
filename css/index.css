@@ -558,4 +558,111 @@
 /* HOW IT WORKS */
 .how {
     padding-top: 155px;
+    padding-bottom: 149px;
+}
+
+/* title */
+.how-title-box {
+    text-align: center;
+}
+
+.how-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.how-text {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    color: #75888d;
+    margin-top: 10px;
+}
+
+/* item box */
+.how-item-box {
+    font-size: 0;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.how-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 215px;
+    min-height: 300px;
+    text-align: center;
+    margin-right: 87px;
+}
+
+.how-item:last-child {
+    margin-right: 0;
+}
+
+.how-item--04 {
+    margin-top: 31px;
+}
+
+/* item content */
+.how-item-title-box {
+    margin-top: 107px;
+}
+
+.how-item-title {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.how-item-text-box {
+    margin-top: 28px;
+}
+
+.how-item-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/* arrows position */
+.how-item-arrow-box {
+    position: relative;
+    left: 150px;
+}
+
+.how-item-arrow-box--02 {
+    position: relative;
+    transform: rotate(180deg);
+    top: 85px;
+}
+
+/* link */
+.how-link-box {
+    text-align: center;
+    margin-top: 91px;
+}
+
+.how-link {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 18px 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ffbb42;
+    transition: all 0.3s ease;
+}
+
+.how-link:hover {
+    color: #ffbb42;
+    background-color: #ffffff;
+    border: 1px solid #ffbb42;
 }
