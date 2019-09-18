@@ -76,39 +76,6 @@
     background-color: #ffbb42;
 }
 
-/* HEADER - Topbar - Menu - Dropdown */
-.dropdown-item {
-    position: relative;
-}
-
-.dropdown-box {
-    display: none;
-    position: absolute;
-    top: 28px;
-    min-width: 250px;
-    padding: 21px;
-    background-color: #ffbb42;
-    background-image: linear-gradient(#ffbb42, #af802d);
-}
-
-.dropdown-link {
-    display: block;
-    padding-bottom: 10px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    color: #000000;
-    transition: all 0.3s ease;
-}
-
-.dropdown-link:hover {
-    color: #ffffff;
-}
-
-.dropdown-item:hover .dropdown-box {
-    display: block;
-}
-
 /* HEADER - FORM */
 .header-form {
     background-color: #709dca;
@@ -690,7 +657,7 @@
 .clients-text {
     margin-top: 10px;
     font-family: "Open Sans";
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -781,3 +748,199 @@
 .clients-item-author--name {
     color: #f6772c;
 }
+
+/* NEWSLETTER */
+.newsletter {
+    padding: 154px 0 57px 0;
+}
+
+/* Description */
+.newsletter-title-box {
+    text-align: center;
+}
+
+.newsletter-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #394b50;
+    letter-spacing: -0.75px;
+}
+
+.newsletter-text {
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #394b50;
+}
+
+/* Form */
+.form-input-1 {
+    width: 308px;
+    border: 1px solid #cbcbcb;
+}
+
+.form-input-2 {
+    width: 388px;
+    border: 1px solid #cbcbcb;
+}
+
+.form2-button {
+    width: 218px;
+    height: 45px;
+}
+
+/* Address */
+.address {
+    margin-top: 53px;
+    padding-top: 40px;
+    background-image: url(../img/address-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 549px;
+}
+
+.newsletter--border {
+    border-bottom: 1px solid #e3e7ec;
+}
+
+/* Content */
+.address-box {
+    margin: 0 auto;
+    width: 279px;
+    height: 225px;
+    background-color: #394b50;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 65px;
+    position: relative;
+}
+
+.address-box-arrow {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+    border-top: 16px solid #394b50;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -13px;
+}
+
+.address-title {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.address-text {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 13px;
+    color: #aeb7ba;
+    margin-top: 13px;
+}
+
+
+.address-text:first-child {
+    margin-top: 20px;
+}
+.address-email-link {
+    text-decoration: none;
+    color: #ffbb42;
+    transition: all 0.3s ease;
+}
+
+.address-email-link:hover {
+    color: #ffffff;
+}
+
+/* Logo */
+.address-logo-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+.footer {
+    padding-top: 70px;
+}
+.footer-menu-box {
+    text-align: center;
+}
+
+.footer-menu-link {
+    color: #394b50;
+    font-size: 13px;
+}
+
+.footer-contact-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-contact-tel {
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 400;
+    color: #394b50;
+}
+.footer-contact-tel-icon {
+    color: #394b50;
+    font-size: 23px;
+    margin-right: 7px;
+}
+
+.footer-contact-icon {
+    font-size: 18px;
+}
+
+/* icons */
+.footer-icon-box {
+margin-top: 23px;
+text-align: center;
+}
+
+.footer-contact-icons {
+    font-size: 18px;  
+    margin-right: 17px;  
+    transition: all 0.3s ease;
+}
+
+.footer-contact-icons:last-child {
+    margin-top: 0;
+}
+
+.footer-contact-icons-link {
+    text-decoration: none;
+}
+
+.footer-contact-icons-link:hover .footer-contact-icons {
+    color: #ffc155;
+}
+
+.content-frame--footer {
+    padding-bottom: 53px;
+}
+
+/* Basement */
+.footer-basement {
+    background-color: #709dca;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.footer-basement-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
