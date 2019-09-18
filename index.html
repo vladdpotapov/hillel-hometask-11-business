@@ -12,7 +12,7 @@
 </head>
 <body>
                                     <!-- HEADER -->
-    <header class="header">
+    <header class="header" id="to-header">
                                 <!-- HEADER - TOPBAR -->
         <div class="header-topbar">
             <div class="content-frame clearfix">
@@ -24,7 +24,7 @@
 <!-- Menu -->   <nav class="topbar-menu-box">
                     <ul class="topbar-menu-list">
                         <li class="topbar-menu-item">
-                            <a href="#" class="topbar-menu-link">Home</a>
+                            <a href="#to-header" class="topbar-menu-link">Home</a>
                         </li><!--
                      --><li class="topbar-menu-item dropdown-item">
                             <a href="#to-services" class="topbar-menu-link">Service</a>
@@ -39,10 +39,10 @@
                             <a href="#to-how" class="topbar-menu-link">How it Work</a>
                         </li><!--
                      --><li class="topbar-menu-item">
-                            <a href="#" class="topbar-menu-link">Happy Clients</a>
+                            <a href="#to-clients" class="topbar-menu-link">Happy Clients</a>
                         </li><!--
                      --><li class="topbar-menu-item">
-                            <a href="#" class="topbar-menu-link">Contact Us</a>
+                            <a href="#to-contact" class="topbar-menu-link">Contact Us</a>
                         </li>
                     </ul>
                 </nav>
@@ -51,8 +51,8 @@
 <!-- Form -->
         <div class="header-form">
             <div class="content-frame">
-<!--Title Box--><div class="header-form-text-box">
-<!--Title-->        <h1 class="header-form-title">
+<!--Title-->    <div class="header-form-text-box">
+                    <h1 class="header-form-title">
                         Boost up your Local business       
                     </h1>
 <!--Text-->         <p class="header-form-text">
@@ -94,10 +94,10 @@
                                           <!-- MAIN -->
     <main class="main">
                                         <!-- SERVICES -->
-        <section class="services">
+        <section class="services" id="to-services">
             <div class="content-frame">
-<!--Title Box--><div class="services-title-box">
-<!--Title-->        <h2 class="services-title" id="to-services">
+<!--Title-->    <div class="services-title-box">
+                    <h2 class="services-title">
                         Our Services
                     </h2>
 <!--Text-->         <p class="services-text">
@@ -213,11 +213,11 @@
         <section class="about" id="to-about">
             <div class="about-img-box"></div><!--
          --><div class="about-desc-box">
-                <div class="about-text-box">
+<!--Title-->    <div class="about-text-box">
                     <h2 class="about-title">
                         About Us
                     </h2>
-                    <p class="about-text">
+<!--Text-->         <p class="about-text">
                         Lorem Ipsum is simply dummy text of the printing and typesetting 
                         industry. Lorem Ipsum has been the industry's standard dummy text 
                         ever since the 1500s, when an unknown printer took a galley of type 
@@ -227,16 +227,16 @@
                         recently with desktop publishing software like Aldus PageMaker 
                         including versions of Lorem Ipsum
                     </p>
-                    <div class="about-link-box">
+<!--Link-->         <div class="about-link-box">
                         <a href="#" class="about-link">Read More</a>
                     </div>
                 </div>
             </div>
         </section>
                                         <!-- PRICE -->
-        <section class="price">
+        <section class="price" id="to-price">
             <div class="content-frame">
-<!--Title Box--><div class="price-title-box" id="to-price">
+<!--Title Box--><div class="price-title-box">
 <!--Title-->        <h2 class="price-title">
                         Choose Your Price
                     </h2>
@@ -341,14 +341,13 @@
                             </div>
                         </div>
                     </div>
-
                 </div>                
             </div>
         </section>
                                     <!-- HOW IT WORKS -->
-        <section class="how">
+        <section class="how" id="to-how">
             <div class="content-frame">
-<!--Title Box--><div class="how-title-box" id="to-how">
+<!--Title Box--><div class="how-title-box">
 <!--Title-->        <h2 class="how-title">
                         How It Works
                     </h2>
@@ -452,7 +451,7 @@
             </div>
         </section>
                                 <!-- HAPPY CLIENTS -->
-        <section class="clients">
+        <section class="clients" id="to-clients">
             <div class="content-frame">
 <!--Title Box--><div class="clients-title-box">
 <!--Title-->        <h2 class="clients-title">
@@ -462,10 +461,7 @@
                         We are explain who is using our business solutions
                     </p>
                 </div>
-
-
 <!--Item Box--> <div class="clients-item-box">
-
 <!--Item-->         <div class="clients-item">
                         <div class="clients-item-picture-box">
                             <a href="#" class="clients-img-link">
@@ -484,8 +480,6 @@
                             </p>
                         </div>
                     </div>
-
-
 <!--Item-->         <div class="clients-item clients-item--nomargin">
                         <div class="clients-item-picture-box">
                             <a href="#" class="clients-img-link">
@@ -502,8 +496,6 @@
                             </p>
                         </div>
                     </div>
-
-
 <!--Item-->         <div class="clients-item">
                         <div class="clients-item-picture-box">
                             <a href="#" class="clients-img-link">
@@ -522,7 +514,6 @@
                             </p>
                         </div>
                     </div>
-
 <!--Item-->         <div class="clients-item clients-item--nomargin">
                         <div class="clients-item-picture-box">
                             <a href="#" class="clients-img-link">
@@ -542,7 +533,8 @@
                 </div>
             </div>
         </section>
-        <section class="newsletter newsletter--border">
+                                            <!-- NEWSLETTER -->
+        <section class="newsletter newsletter--border" id="to-contact">
             <div class="content-frame">
 <!--Title Box--><div class="newsletter-title-box">
 <!--Title-->        <h2 class="newsletter-title">
@@ -571,17 +563,17 @@
                         <p class="address-text">
                             Bavani nagar.88769
                         </p>
-                        <p class="address-text">
+<!--Tel-->              <p class="address-text">
                              Call : +987-9976-999
                         </p>    
-                        <p class="address-text address-email">
+<!--Email-->            <p class="address-text address-email">
                             <a href="#" class="address-email-link">
                                 info@businessface.com
                             </a>                       
                         </p> 
                         <div class="address-box-arrow"></div>                
                     </div>
-                    <div class="address-logo-box">
+<!--Logo-->         <div class="address-logo-box">
                         <a href="#" class="logo-link">
                             <img class="logo" src="img/header-logo.png" alt="logo">
                         </a>
@@ -593,10 +585,10 @@
                                             <!-- FOOTER -->
     <footer class="footer">
         <div class="content-frame content-frame--footer">
-            <nav class="footer-menu-box">
+<!--Menu--> <nav class="footer-menu-box">
                 <ul class="topbar-menu-list">
                     <li class="topbar-menu-item">
-                        <a href="#" class="topbar-menu-link footer-menu-link">Home</a>
+                        <a href="#to-header" class="topbar-menu-link footer-menu-link">Home</a>
                     </li><!--
                  --><li class="topbar-menu-item">
                         <a href="#to-services" class="topbar-menu-link footer-menu-link">Service</a>
@@ -611,18 +603,18 @@
                         <a href="#to-how" class="topbar-menu-link footer-menu-link">How it Work</a>
                     </li><!--
                  --><li class="topbar-menu-item">
-                        <a href="#" class="topbar-menu-link footer-menu-link">Happy Clients</a>
+                        <a href="#to-clients" class="topbar-menu-link footer-menu-link">Happy Clients</a>
                     </li><!--
                  --><li class="topbar-menu-item">
-                        <a href="#" class="topbar-menu-link footer-menu-link">Contact Us</a>
+                        <a href="#to-contact" class="topbar-menu-link footer-menu-link">Contact Us</a>
                     </li>
                 </ul>
             </nav>
             <div class="footer-contact-box">
-                <p class="footer-contact-tel">
+<!--Tel-->      <p class="footer-contact-tel">
                     <i class="footer-contact-tel-icon fa fa-phone"></i>+987 9976 999
                 </p>
-                <div class="footer-icon-box">
+<!--Icons-->    <div class="footer-icon-box">
                     <a href="#" class="footer-contact-icons-link">
                         <i class="footer-contact-icons fa fa-twitter"></i>
                     </a> 

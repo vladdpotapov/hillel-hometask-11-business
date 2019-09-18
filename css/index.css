@@ -22,7 +22,6 @@
     font-style:normal;
 }
 
-
 /* GENERAL */
 .content-frame {
     max-width: 1170px;
@@ -218,6 +217,7 @@
 .main {
     padding-top: 100px;
 }
+
 /* MAIN - Services */
 .services-title-box {
     text-align: center;
@@ -256,7 +256,7 @@
     padding-left: 60px;
 }
 
-/* item icons */
+/* MAIN - Services - Item Icons */
 .services-item-icon-box {
     display: inline-block;
     vertical-align: top;
@@ -418,7 +418,7 @@
     margin-top: 10px;
 }
 
-/* PRICE - Items */
+/* MAIN - Price - Items */
 .price-item-box {
     font-size: 0;
     margin: 80px auto;
@@ -446,7 +446,7 @@
     padding-top: 87px;
 }
 
-/* item text content */
+/* MAIN - Proce - Item Text Content */
 .price-item-title {
     font-family: Lato;
     font-size: 25px;
@@ -528,7 +528,7 @@
     padding-bottom: 149px;
 }
 
-/* title */
+/* HOW IT WORKS - Title */
 .how-title-box {
     text-align: center;
 }
@@ -550,7 +550,7 @@
     margin-top: 10px;
 }
 
-/* item box */
+/* HOW IT WORKS - Item Box */
 .how-item-box {
     font-size: 0;
     margin-top: 75px;
@@ -574,7 +574,7 @@
     margin-top: 31px;
 }
 
-/* item content */
+/* HOW IT WORKS - Item Content */
 .how-item-title-box {
     margin-top: 107px;
 }
@@ -598,7 +598,7 @@
     line-height: 22px;
 }
 
-/* arrows position */
+/* HOW IT WORKS - Arrows Position */
 .how-item-arrow-box {
     position: relative;
     left: 150px;
@@ -610,7 +610,7 @@
     top: 85px;
 }
 
-/* link */
+/* HOW IT WORKS - Link */
 .how-link-box {
     text-align: center;
     margin-top: 91px;
@@ -640,7 +640,7 @@
     padding: 141px 0 160px 0;
 }
 
-/* Description */
+/* HAPPY CLIENTS - Description */
 .clients-title-box {
     text-align: center;
 }
@@ -662,7 +662,7 @@
     color: #ffffff;
 }
 
-/* Items */
+/* HAPPY CLIENTS - Items */
 .clients-item-box {
     text-align: center;
     font-size: 0;
@@ -683,7 +683,7 @@
     margin-bottom: 0;
 }
 
-/* Items Content */
+/* HAPPY CLIENTS - Items Content */
 .clients-item-picture-box {
     display: inline-block;
     vertical-align: top;
@@ -702,6 +702,7 @@
     margin-right: 30px;
 }
 
+/* HAPPY CLIENTS - Item Quotes */
 .clients-item-text:before {
     content: '';
     display: block;
@@ -754,7 +755,7 @@
     padding: 154px 0 57px 0;
 }
 
-/* Description */
+/* NEWSLETTER - Description */
 .newsletter-title-box {
     text-align: center;
 }
@@ -776,7 +777,7 @@
     color: #394b50;
 }
 
-/* Form */
+/* NEWSLETTER - Form */
 .form-input-1 {
     width: 308px;
     border: 1px solid #cbcbcb;
@@ -792,7 +793,7 @@
     height: 45px;
 }
 
-/* Address */
+/* NEWSLETTER - Address */
 .address {
     margin-top: 53px;
     padding-top: 40px;
@@ -807,7 +808,7 @@
     border-bottom: 1px solid #e3e7ec;
 }
 
-/* Content */
+/* NEWSLETTER - Content */
 .address-box {
     margin: 0 auto;
     width: 279px;
@@ -862,7 +863,7 @@
     color: #ffffff;
 }
 
-/* Logo */
+/* NEWSLETTER - Logo */
 .address-logo-box {
     text-align: center;
     margin-top: 20px;
@@ -902,7 +903,7 @@
     font-size: 18px;
 }
 
-/* icons */
+/* FOOTER - Icons */
 .footer-icon-box {
 margin-top: 23px;
 text-align: center;
@@ -930,7 +931,7 @@ text-align: center;
     padding-bottom: 53px;
 }
 
-/* Basement */
+/*FOOTER - Basement */
 .footer-basement {
     background-color: #709dca;
     text-align: center;
