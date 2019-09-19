@@ -204,13 +204,23 @@
     text-align: center;
 }
 
+.header-ellipse-icon {
+    font-size: 20px;
+}
+
 .header-ellipse-link {
     text-decoration: none;
+    color: #dedfe0;
     margin-right: 5px;
+    transition: all 0.3s ease;
 }
 
 .header-ellipse-link:last-child {
     margin-right: 0;
+}
+
+.header-ellipse-link:hover {
+    color: #1ca8dd;
 }
 
 /* MAIN */
@@ -262,8 +272,13 @@
     vertical-align: top;
 }
 
-.fa {
+.services-item-icon {
     font-size: 50px;  
+    color: #709dca;
+}
+
+.how-item-icon {
+    font-size: 72px;
     color: #709dca;
 }
 
@@ -330,7 +345,12 @@
 .about-img-box {
     display: inline-block;
     vertical-align: top;
+    background-color: #ffc155;
     width: 50%;
+}
+
+.about-img {
+    width: 100%;
     min-height: 623px;
     background-image: url(../img/about-img.jpg);
     background-repeat: no-repeat;
@@ -371,6 +391,7 @@
 
 .about-link-box {
     margin-top: 51px;
+    margin-bottom: 50px;
 }
 
 .about-link {
@@ -921,6 +942,7 @@ text-align: center;
 
 .footer-contact-icons-link {
     text-decoration: none;
+    color: #709dca;
 }
 
 .footer-contact-icons-link:hover .footer-contact-icons {
