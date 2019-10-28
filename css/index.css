@@ -986,6 +986,7 @@ text-align: center;
         padding: 0 8px;
         margin: 0;
     }
+
     /* Header - Form */
     .header-form-content-frame {
         display: flex;
@@ -1000,6 +1001,94 @@ text-align: center;
         width: 300px;
         margin-bottom: 10px;
     }
+
+    /* Services */
+    .services-content-frame {
+        width: 95%;
+    }
+    .services-item-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-item {
+        display: flex;
+        width: 400px;
+    }
+    .services-item-right {
+        padding-left: 0;
+    }
+
+    /* About */
+    .about {
+        display: flex;
+        margin-top: 0;
+    }
+    .about-text-box {
+        margin: 30% 0 0 10%;
+        width: 80%;
+    }
+
+    /* Price */
+    .price-item-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-item--central {
+        bottom: 0;
+    }
+
+    /* How */
+    .how-content-frame {
+        /* width: 70%; */
+        width: 550px;
+    }
+
+    .how {
+        padding: 100px 0;
+    }
+
+    .how-item-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .how-item--02 {
+        margin: 65px 0 0 0;
+    }
+
+    .how-item--04 {
+        margin: 65px 0 0 0;
+    }
+
+    .how-item-arrow-box--02 {
+        display: none;
+    }
+
+    .how-item-title-box {
+        margin-top: 40px;
+    }
+
+    /* Clients */
+    .clients-content-frame {
+        width: 580px;
+    }
+    
+    .clients-item-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clients-item {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -1058,5 +1147,133 @@ text-align: center;
     }
     .header-ellipse-box {
         margin-top: 40px;
+    }
+
+    /* Services */
+    .main {
+        padding-top: 50px;
+    }
+    .services-content-frame {
+        width: 94%;
+        padding: 0 10px;
+    }
+    .services-item-box {
+        margin-top: 35px;
+    }
+    .services-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .fa {
+        margin: 0;
+    }
+
+    .services-item-text-box {
+        width: 100%;
+    }
+
+    .services-item-title {
+        margin-top: 10px;
+    }
+
+    /* About */
+    .about-img-box {
+        display: none;
+    }
+    .about-desc-box {
+        width: 100%;
+    }
+    .about-text-box {
+        margin: 10% 5%;
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Price */
+    .price {
+        padding: 50px 0 0 0;
+    }
+    .price-item {
+        width: 320px;
+        padding: 50px 0 0 0;
+        min-height: 400px;
+    }
+
+    /* How */
+    .how {
+        padding: 50px 0;
+    }
+    .how-content-frame {
+        width: 100%;
+    }
+    .how-item-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .how-item {
+        margin: 10px 0 0 0;
+    }
+
+    .how-item-arrow-box {
+        display: none;
+    }
+
+    .how-item-title-box {
+        margin-top: 40px;
+    }
+
+    .how-link-box {
+        margin-top: 50px;
+    }
+
+    /* Clients */
+    .clients {
+        padding: 100px 0;
+    }
+    .clients-content-frame {
+        width: 100%;
+    }
+    .clients-item-box {
+        width: 100%;
+    }
+
+    .clients-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 25px;
+    }
+
+    .clients-item-picture-box {
+        margin-right: 0;
+    }
+    .clients-item-text-box {
+        width: 95%;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .clients-item-text::before,
+    .clients-item-text::after {
+        display: none;
+    }
+
+    /* Newsletter */
+    .newsletter {
+        padding: 50px 0 0 0;
+    }
+
+    /* Footer */
+    .footer-basement-text {
+        line-height: 20px;
     }
 }
