@@ -346,7 +346,7 @@
     display: inline-block;
     vertical-align: top;
     background-color: #ffc155;
-    width: 50%;
+    width: 49.8%;
 }
 
 .about-img {
@@ -362,7 +362,7 @@
 .about-desc-box {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 49.8%;
 }
 
 .about-text-box {
@@ -967,3 +967,96 @@ text-align: center;
     color: #ffffff;
 }
 
+/* MEDIA */
+@media (max-width: 1200px) {
+    /* Header - Topbar */
+    .header-content-frame {
+        width: 95%;
+        display: flex;
+    }
+    .topbar-menu-box {
+        margin-left: auto;
+    }
+    .topbar-menu-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .topbar-menu-link {
+        padding: 0 8px;
+        margin: 0;
+    }
+    /* Header - Form */
+    .header-form-content-frame {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-input {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Header - Topbar */
+    .header-content-frame {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topbar-menu-box {
+        width: 100%;
+    }
+    .topbar-menu-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .topbar-menu-item:first-child {
+        display: none;
+    }
+    .topbar-menu-item {
+        width: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .topbar-menu-link {
+        font-size: 15px;
+    }
+
+    /* Header - Form */
+    .header-form-content-frame {
+        width: 100%;
+    }
+    .header-form {
+        padding-top: 40px;
+    }
+    .header-form-text-box {
+        width: 100%;
+    }
+    .form-input {
+        width: 80%;
+    }
+
+    /* Header - Laptop */
+    .header-image-content-frame {
+        width: 100%;
+    }
+    .header-img-box {
+        height: 170px;
+        top: 35px;
+        background-size: 300px;
+    }
+    .header-img {
+        width: 205px;
+        top: 14px;
+    }
+    .header-ellipse-box {
+        margin-top: 40px;
+    }
+}
